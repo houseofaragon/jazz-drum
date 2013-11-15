@@ -1,0 +1,148 @@
+@font-face {
+	font-family: folio;
+	src: url('Folio_Bold_Condensed.ttf');
+}
+@font-face {
+	font-family:trade_gothic;
+	src: url('Trade_Gothic_Bold_Condensed_No_20.ttf');
+}
+
+/*--------- Presets --------------*/
+
+* {
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+body{
+	font-family: Raleway;
+	color: #F0F0F0;
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 200%, from(#000), to(#000066));
+    background-image: -webkit-linear-gradient(top, #000, #000066); 
+    background-image:    -moz-linear-gradient(top, #000, #000066);
+    background-image:     -ms-linear-gradient(top, #000, #000066);
+    background-image:      -o-linear-gradient(top, #000, #000066);
+    bottom: 0px;
+}
+
+.clear{
+	clear:both;
+}
+
+.container {
+	background-color: none;
+}
+
+
+/*--------- Header / Logo --------------*/
+
+header{
+  margin: 50px auto;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+	header h1{
+	  padding: 20px;
+	  font-size: 98px;
+	  font-weight: 200;
+	  text-align: center;
+	  line-height: 100px;
+	  color: inherit;
+	  border-bottom: 1px solid #FFF;
+	}
+
+.glow{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+}
+
+#info {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+/*---------- SELECTORS --------------*/
+.select-option{
+    min-height: 100px;
+	padding: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.sel {
+    background-color: #000;
+    color: #fff;
+}
+
+/* OR */
+#center{
+	max-height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+	#center p{
+		line-height: 200px;
+		font-family: 'Bebas';
+		font-size: 20px;
+	}
+
+/*--------- BUTTONS/SLIDERS -----------*/
+
+.button {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFF;
+}
+
+.slider {
+	min-height: 100px;
+
+}
+
+#allsliders{
+	margin: 0 auto;
+	width: 100px;
+	max-height: 200px;
+}
+
+#play-remix {
+	margin: 0 auto;
+	text-align: center;
+	z-index: 100;
+	max-height: 300px;
+}
+
+	#play-remix button {
+		font-family: Raleway;
+		text-transform: uppercase;
+		font-size: 20px;
+		line-height: 35px;
+		width: 100px;
+		height: 40px;
+	}
+
+/*--------- FOOTER -----------*/
+
+footer {
+	font-family: "Quicksand";
+	position: relative;
+	padding: 20px 0px; 
+	border-bottom: 2px solid #000; 
+	border-top: 1px solid #000; 
+	width: 300px; 
+	margin: 100px auto ; 
+	text-align: center;
+	font-size: 0.7em;
+	bottom: 0px;
+}
+
+
